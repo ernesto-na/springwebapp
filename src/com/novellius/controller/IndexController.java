@@ -23,7 +23,7 @@ public class IndexController {
 		sessionStatus.setComplete();
 		return "about";
 	}
-	@RequestMapping("/admin")
+	//@RequestMapping("/admin")
 	public String showAdmin(Model model) {
 		model.addAttribute("mensaje", "Mensaje del admin desde el model");
 		return "admin";
